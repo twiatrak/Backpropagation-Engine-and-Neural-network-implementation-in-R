@@ -8,13 +8,11 @@ This repository contains an implementation of a backpropagation engine for neura
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Example Usage](#example-usage)
 - [File Descriptions](#file-descriptions)
 - [Contributing](#contributing)
-
 - [Version française](#version-française)
 
 ## Overview
@@ -25,12 +23,6 @@ This project implements a neural network and a backpropagation engine using R. I
 - **Custom Neural Network**: Allows users to define the structure of a neural network.
 - **Performance Tracking**: Can track and visualize the performance metrics during training.
 
-## Requirements
-To run the code, you will need the following:
-- R version 4.0.0 or higher
-- Recommended R packages: 
-  - `ggplot2`
-  - `dplyr`
 
 ## Installation
 1. Clone this repository:
