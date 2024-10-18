@@ -8,6 +8,7 @@ This repository contains an implementation of a backpropagation engine for neura
 
 ## Table of Contents
 - [Overview](#overview)
+- [Changelog](#changelog)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -18,6 +19,12 @@ This repository contains an implementation of a backpropagation engine for neura
 
 ## Overview
 This project implements a neural network and a backpropagation engine using R. It is designed for educational purposes and to demonstrate the basic principles of training a neural network through backpropagation.
+
+## Changelog
+- Optimized the backpropagation engine using vectorisation native to R
+- Switched to using reLU actuvation function instead of sigmoid for the hidden layers
+- Applied simple adaptive learning rate, next step is to curb the overfitting
+- Simplified the class structure
 
 ## Features
 - **Backpropagation**: Implements the backpropagation algorithm for training a neural network.
